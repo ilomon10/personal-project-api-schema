@@ -1,0 +1,33 @@
+type: http_request
+model: http_request
+id: rq_zCiTnJp6tH
+createdAt: 2026-06-19T00:27:04.535361410
+updatedAt: 2026-06-19T00:27:44.253366100
+workspaceId: wk_HSidN2BR8Y
+folderId: fl_wEqsvSugSZ
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: ''
+sortPriority: 0.0
+url: ${[ baseURL ]}/api/templates
+urlParameters: []
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

@@ -1,0 +1,17 @@
+type: workspace
+model: workspace
+id: wk_HSidN2BR8Y
+createdAt: 2026-06-19T00:24:29.557450605
+updatedAt: 2026-06-19T00:24:33.374566140
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+name: Personal Projects API
+encryptionKeyChallenge: eUE0azNuQwHGQ+I5/rlCwICwuHRYSTgijcdUBKFFT7Z7EepfWXDmyxioU6lz17pTAlfqR94cQFYnqEiBjlUdr9ibResoa5NVU/KuTw06nfkXn95OdUQCDY4DtbqWBUyhy/M=
+settingValidateCertificates: true
+settingFollowRedirects: true
+settingRequestTimeout: 0
+settingDnsOverrides: []
+settingSendCookies: true
+settingStoreCookies: true

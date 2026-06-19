@@ -1,0 +1,30 @@
+type: environment
+model: environment
+id: ev_bA2f6kGBQd
+workspaceId: wk_HSidN2BR8Y
+createdAt: 2026-06-19T00:28:05.744507847
+updatedAt: 2026-06-19T00:42:05.976196088
+name: Undangon Environment
+public: true
+base: false
+parentModel: folder
+parentId: fl_wEqsvSugSZ
+variables:
+- enabled: true
+  name: baseURL
+  value: http://localhost:3000
+  id: WK3Z3re5S7
+- enabled: true
+  name: username
+  value: admin
+  id: f6GxXCe9MT
+- enabled: true
+  name: password
+  value: changeme
+  id: 9gUU6s7wja
+- enabled: true
+  name: apiKey
+  value: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3RTRMODdKS2lxcnZGU2ZHc0M2N1c1WkpFbTJGZVFKdUdtQVZGOW1wNys1UzhFTnpqV3oxZXp3eEIzSm9HWlZiZ0wrZmk2dWxIaGJLemFod1B6QU16dHhlWDNxS0dGSHpxKzFGNW1B') ]}
+  id: 9PJ42Gehkx
+color: null
+sortPriority: 0.0
