@@ -1,16 +1,17 @@
 type: folder
 model: folder
-id: fl_wEqsvSugSZ
-createdAt: 2026-06-19T00:27:42.095808192
-updatedAt: 2026-06-19T05:17:05.145152753
+id: fl_stx5fF8pTY
+createdAt: 2026-06-19T01:17:15.718633910
+updatedAt: 2026-06-19T05:17:09.343841437
 workspaceId: wk_HSidN2BR8Y
-folderId: null
+folderId: fl_wEqsvSugSZ
 authentication:
-  prefix: Bearer
-authenticationType: bearer
+  key: Authorization
+  value: users API-Key ${[ apiKey ]}
+authenticationType: apikey
 description: ''
 headers: []
-name: Undangon
+name: Custom Endpoint
 sortPriority: 1000.0
 settingSendCookies:
   enabled: false

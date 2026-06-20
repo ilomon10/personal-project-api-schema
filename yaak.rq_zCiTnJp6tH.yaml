@@ -2,20 +2,81 @@ type: http_request
 model: http_request
 id: rq_zCiTnJp6tH
 createdAt: 2026-06-19T00:27:04.535361410
-updatedAt: 2026-06-19T00:27:44.253366100
+updatedAt: 2026-06-19T06:59:07.794234604
 workspaceId: wk_HSidN2BR8Y
-folderId: fl_wEqsvSugSZ
+folderId: fl_w37kMHkSyS
 authentication: {}
 authenticationType: null
-body: {}
-bodyType: null
+body:
+  text: |-
+    {
+      "thumbnailAsset": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAIAQMAAAD+wSzIAAAABlBMVEX///+/v7+jQ3Y5AAAADklEQVQI12P4AIX8EAgALgAD/aNpbtEAAAAASUVORK5CYII",
+      "assets": [],
+      "data": {
+        "dataSources": [
+          {
+            "id": "globalData",
+            "records": [
+              {
+                "defaultValue": "",
+                "id": "color-primary",
+                "placeholder": "",
+                "type": "color",
+                "value": "New Value"
+              }
+            ]
+          }
+        ],
+        "pages": [
+          {
+            "frames": [
+              {
+                "component": {
+                  "components": [],
+                  "docEl": {
+                    "tagName": "html"
+                  },
+                  "head": {
+                    "type": "head"
+                  },
+                  "stylable": [],
+                  "type": "wrapper"
+                },
+                "id": "4GP2iIKyuNvHS2W4"
+              }
+            ],
+            "id": "rTwgq5r8G5ehdsNG",
+            "name": "Home page"
+          }
+        ],
+        "styles": [],
+        "symbols": []
+      },
+    }
+bodyType: application/json
 description: ''
-headers: []
-method: GET
-name: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: dsavwHV53w
+method: PATCH
+name: Update template by ID
 sortPriority: 0.0
-url: ${[ baseURL ]}/api/templates
-urlParameters: []
+url: ${[ baseURL ]}/api/templates/update-template/:id
+urlParameters:
+- enabled: true
+  name: :id
+  value: '1'
+  id: yVWYFdprcr
+- enabled: false
+  name: ''
+  value: coba
+  id: AdmS2mRYf9
+- enabled: true
+  name: ''
+  value: ''
+  id: ChtNemKHnu
 settingSendCookies:
   enabled: false
   value: true

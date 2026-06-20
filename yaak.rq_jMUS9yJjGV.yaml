@@ -1,0 +1,33 @@
+type: http_request
+model: http_request
+id: rq_jMUS9yJjGV
+createdAt: 2026-06-19T05:18:51.440723025
+updatedAt: 2026-06-19T05:20:07.189261618
+workspaceId: wk_HSidN2BR8Y
+folderId: fl_oZwUYKnvFe
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: DELETE
+name: Delete a User
+sortPriority: 4000.0
+url: ${[ baseURL ]}/api/users/:id
+urlParameters: []
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

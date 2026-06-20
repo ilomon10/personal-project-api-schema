@@ -3,7 +3,7 @@ model: environment
 id: ev_bA2f6kGBQd
 workspaceId: wk_HSidN2BR8Y
 createdAt: 2026-06-19T00:28:05.744507847
-updatedAt: 2026-06-19T00:42:05.976196088
+updatedAt: 2026-06-19T23:50:10.430592700
 name: Undangon Environment
 public: true
 base: false
@@ -24,7 +24,11 @@ variables:
   id: 9gUU6s7wja
 - enabled: true
   name: apiKey
-  value: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3RTRMODdKS2lxcnZGU2ZHc0M2N1c1WkpFbTJGZVFKdUdtQVZGOW1wNys1UzhFTnpqV3oxZXp3eEIzSm9HWlZiZ0wrZmk2dWxIaGJLemFod1B6QU16dHhlWDNxS0dGSHpxKzFGNW1B') ]}
+  value: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3SHJnVDJ1NGxxekdrbGxFbkwwZ1RGSmE4akNybkJRaEVhc0NtZEczaktaeEVpaHd5Wm1vci9pMFFoU25YaUpPbzk4dUptVW5zYjZLeHF4cW00dzZZdHBsWVZuakRBUFhqalJXczA2') ]}
   id: 9PJ42Gehkx
+- enabled: true
+  name: accessToken
+  value: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3SFhZUG5YUkdWZDlCd3RmMGVBY3VHc3BMMGtrdEJhVWFlVm1Xc0ZHZ0JDS2hxQmt1UitDNm91emlTMWFEM0JFZDdVM2xDbENTencydkFGKzl6cFlscGJCYmhUSE5VVjlTSFlxbFlXUk5URlM3ZTRZbnUySWRqdE53dWgrenhzZk52NXVCV3dUNW5Hekg1NVZGZzhtbjJnQXpzU2YzZTY5Yyt1Rm12R09UZHJHbk9BVi9lRVpIWVk3aGI1TVRvTTRoVWJKQjJ5T0swZnBwWk5iRDQxL1pKYnY3bWJhT0ozY1d0ZG1BTmFCZnQrY0xXWSt2TGxwMGczY3dpS3lIbWdaRVJXcTFYTkx4TUxBY0xiYzZHdVY1NjdiVDV1Wkx5Q3pMcG4vSnhhcWNRS05WUDg1UytyR28zWjFuRUV2VDBrRnZtVmdkNVdqOHFpZ0FzMEZpMW9wWjZNU0FiVTA2SldhUUg4N2lGWElFcmJ4UGdYdFcwK1g2bXRXWDJZNWV6N0NXb0paVU02SnNraVJabjhPUm1RLzZVbzhTOUNkbTNjSVNsUFh3dE1MSWlpdjY1VlNEUVRsZzY3a1V5QU85OFFqSlZaRnoySHRRcGNVODRuYWFhVk5KWmdySHdYWElra1RUZ1BsK3c9') ]}
+  id: cAyZRXxC0D
 color: null
 sortPriority: 0.0

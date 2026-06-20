@@ -1,17 +1,21 @@
-type: folder
-model: folder
-id: fl_wEqsvSugSZ
-createdAt: 2026-06-19T00:27:42.095808192
-updatedAt: 2026-06-19T05:17:05.145152753
+type: http_request
+model: http_request
+id: rq_xnrDvRnSjn
+createdAt: 2026-06-19T05:26:36.287719189
+updatedAt: 2026-06-19T05:26:39.988304509
 workspaceId: wk_HSidN2BR8Y
-folderId: null
-authentication:
-  prefix: Bearer
-authenticationType: bearer
+folderId: fl_CYukSMJRCx
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
 description: ''
 headers: []
-name: Undangon
-sortPriority: 1000.0
+method: GET
+name: register
+sortPriority: 0.0
+url: ''
+urlParameters: []
 settingSendCookies:
   enabled: false
   value: true

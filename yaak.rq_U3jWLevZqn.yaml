@@ -1,0 +1,33 @@
+type: http_request
+model: http_request
+id: rq_U3jWLevZqn
+createdAt: 2026-06-19T05:18:43.791667484
+updatedAt: 2026-06-19T05:19:55.187622256
+workspaceId: wk_HSidN2BR8Y
+folderId: fl_oZwUYKnvFe
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: PATCH
+name: Update a User
+sortPriority: 3000.0
+url: ${[ baseURL ]}/api/users/:id
+urlParameters: []
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

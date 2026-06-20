@@ -1,17 +1,21 @@
-type: folder
-model: folder
-id: fl_wEqsvSugSZ
-createdAt: 2026-06-19T00:27:42.095808192
-updatedAt: 2026-06-19T05:17:05.145152753
+type: http_request
+model: http_request
+id: rq_cJBveFyqtg
+createdAt: 2026-06-19T05:17:58.879150395
+updatedAt: 2026-06-19T05:19:44.307425120
 workspaceId: wk_HSidN2BR8Y
-folderId: null
-authentication:
-  prefix: Bearer
-authenticationType: bearer
+folderId: fl_oZwUYKnvFe
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
 description: ''
 headers: []
-name: Undangon
+method: POST
+name: Create a new User
 sortPriority: 1000.0
+url: ${[ baseURL ]}/api/users
+urlParameters: []
 settingSendCookies:
   enabled: false
   value: true

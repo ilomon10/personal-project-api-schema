@@ -1,0 +1,33 @@
+type: http_request
+model: http_request
+id: rq_ws5X7J37zY
+createdAt: 2026-06-19T05:17:31.905844694
+updatedAt: 2026-06-19T05:19:29.121102488
+workspaceId: wk_HSidN2BR8Y
+folderId: fl_oZwUYKnvFe
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: Retrieve a list of Users
+sortPriority: 0.0
+url: ${[ baseURL ]}/api/users
+urlParameters: []
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

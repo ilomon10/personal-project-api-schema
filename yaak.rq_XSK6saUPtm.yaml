@@ -1,0 +1,33 @@
+type: http_request
+model: http_request
+id: rq_XSK6saUPtm
+createdAt: 2026-06-19T05:18:21.916081564
+updatedAt: 2026-06-19T05:20:01.042145840
+workspaceId: wk_HSidN2BR8Y
+folderId: fl_oZwUYKnvFe
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: Find a User by ID
+sortPriority: 2000.0
+url: ${[ baseURL ]}/api/users/:id
+urlParameters: []
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0
