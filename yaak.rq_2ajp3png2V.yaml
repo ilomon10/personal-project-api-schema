@@ -1,10 +1,10 @@
 type: http_request
 model: http_request
-id: rq_4BzXYEPpAA
-createdAt: 2026-06-19T05:26:30.297411365
-updatedAt: 2026-06-22T08:18:43.771273961
+id: rq_2ajp3png2V
+createdAt: 2026-06-22T08:20:54.962406695
+updatedAt: 2026-06-22T08:20:54.962408091
 workspaceId: wk_HSidN2BR8Y
-folderId: fl_CYukSMJRCx
+folderId: fl_dRJcwqX5WZ
 authentication: {}
 authenticationType: null
 body: {}
@@ -12,9 +12,9 @@ bodyType: null
 description: ''
 headers: []
 method: GET
-name: logout
+name: register
 sortPriority: 0.0
-url: ${[ baseURL ]}/api/users/logout
+url: ''
 urlParameters: []
 settingSendCookies:
   enabled: false
