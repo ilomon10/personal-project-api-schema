@@ -1,0 +1,33 @@
+type: http_request
+model: http_request
+id: rq_VMtfREV45E
+createdAt: 2026-06-25T00:21:52.235255051
+updatedAt: 2026-06-25T01:48:34.991055230
+workspaceId: wk_HSidN2BR8Y
+folderId: fl_qNQj4u2Yem
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: EmployeeDataPin
+sortPriority: 1000.001
+url: https://system.samuderamuliaabadi.com:8083/api/CustomReport/run/path/employee_data_pin?EmpProject=C0000
+urlParameters: []
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

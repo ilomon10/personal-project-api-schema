@@ -1,0 +1,33 @@
+type: http_request
+model: http_request
+id: rq_ahq5U662qX
+createdAt: 2026-06-24T03:25:44.970703426
+updatedAt: 2026-06-24T03:27:01.269505206
+workspaceId: wk_HSidN2BR8Y
+folderId: fl_J6QnPpEqEa
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: ''
+sortPriority: 1000.001
+url: ${[ serverBaseURL ]}/sentry-error-test
+urlParameters: []
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

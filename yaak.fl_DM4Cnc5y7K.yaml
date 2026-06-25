@@ -1,0 +1,28 @@
+type: folder
+model: folder
+id: fl_DM4Cnc5y7K
+createdAt: 2026-06-23T08:23:42.972272945
+updatedAt: 2026-06-23T08:23:45.465507910
+workspaceId: wk_HSidN2BR8Y
+folderId: fl_J6QnPpEqEa
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+name: employees
+sortPriority: 1000.0
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

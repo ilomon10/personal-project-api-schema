@@ -1,0 +1,33 @@
+type: http_request
+model: http_request
+id: rq_77K6Wy3x9h
+createdAt: 2026-06-23T08:25:08.961392521
+updatedAt: 2026-06-23T08:25:33.557897904
+workspaceId: wk_HSidN2BR8Y
+folderId: fl_DM4Cnc5y7K
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: Generate Employee User
+sortPriority: 1000.001
+url: ${[ baseURL ]}/api/employees/generate-user
+urlParameters: []
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0
