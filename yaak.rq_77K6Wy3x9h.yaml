@@ -1,10 +1,10 @@
 type: http_request
 model: http_request
-id: rq_4BzXYEPpAA
-createdAt: 2026-06-19T05:26:30.297411365
-updatedAt: 2026-06-22T08:18:43.771273961
+id: rq_77K6Wy3x9h
+createdAt: 2026-06-23T08:25:08.961392521
+updatedAt: 2026-06-23T08:25:33.557897904
 workspaceId: wk_HSidN2BR8Y
-folderId: fl_CYukSMJRCx
+folderId: fl_DM4Cnc5y7K
 authentication: {}
 authenticationType: null
 body: {}
@@ -12,9 +12,9 @@ bodyType: null
 description: ''
 headers: []
 method: GET
-name: logout
-sortPriority: 0.0
-url: ${[ baseURL ]}/api/users/logout
+name: Generate Employee User
+sortPriority: 1000.001
+url: ${[ baseURL ]}/api/employees/generate-user
 urlParameters: []
 settingSendCookies:
   enabled: false

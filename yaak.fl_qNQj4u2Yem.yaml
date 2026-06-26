@@ -1,0 +1,30 @@
+type: folder
+model: folder
+id: fl_qNQj4u2Yem
+createdAt: 2026-06-25T00:21:46.477409882
+updatedAt: 2026-06-25T01:48:29.268246062
+workspaceId: wk_HSidN2BR8Y
+folderId: fl_aNRNveDq5y
+authentication:
+  key: x-api-key
+  value: ${[ smartSystemApiKey ]}
+authenticationType: apikey
+description: ''
+headers: []
+name: Smart System
+sortPriority: -1782346906445.0
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

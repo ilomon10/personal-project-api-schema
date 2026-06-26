@@ -1,10 +1,10 @@
 type: http_request
 model: http_request
-id: rq_4BzXYEPpAA
-createdAt: 2026-06-19T05:26:30.297411365
-updatedAt: 2026-06-22T08:18:43.771273961
+id: rq_pe9aGGuMfo
+createdAt: 2026-06-23T08:22:56.596782763
+updatedAt: 2026-06-23T08:25:00.029160718
 workspaceId: wk_HSidN2BR8Y
-folderId: fl_CYukSMJRCx
+folderId: fl_DM4Cnc5y7K
 authentication: {}
 authenticationType: null
 body: {}
@@ -12,9 +12,9 @@ bodyType: null
 description: ''
 headers: []
 method: GET
-name: logout
-sortPriority: 0.0
-url: ${[ baseURL ]}/api/users/logout
+name: Pull from Smart System
+sortPriority: 1000.0
+url: ${[ baseURL ]}/api/employees/pull
 urlParameters: []
 settingSendCookies:
   enabled: false

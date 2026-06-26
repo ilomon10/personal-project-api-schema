@@ -1,0 +1,32 @@
+type: folder
+model: folder
+id: fl_J6QnPpEqEa
+createdAt: 2026-06-22T08:20:18.654433501
+updatedAt: 2026-06-23T06:24:00.625810932
+workspaceId: wk_HSidN2BR8Y
+folderId: fl_aNRNveDq5y
+authentication:
+  disabled: ''
+  key: Authorization
+  prefix: ''
+  value: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3R1pnRnF3Rll2MkF3eWhpTWluRGY1TFRxd0VWdVIvbkdvQlc0NUdxbGFvRGlhb3RYZXY4eG9zZmdyNUdodz0') ]}
+authenticationType: apikey
+description: ''
+headers: []
+name: Custom Endpoint
+sortPriority: 1000.0
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

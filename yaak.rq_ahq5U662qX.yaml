@@ -1,10 +1,10 @@
 type: http_request
 model: http_request
-id: rq_4BzXYEPpAA
-createdAt: 2026-06-19T05:26:30.297411365
-updatedAt: 2026-06-22T08:18:43.771273961
+id: rq_ahq5U662qX
+createdAt: 2026-06-24T03:25:44.970703426
+updatedAt: 2026-06-24T03:27:01.269505206
 workspaceId: wk_HSidN2BR8Y
-folderId: fl_CYukSMJRCx
+folderId: fl_J6QnPpEqEa
 authentication: {}
 authenticationType: null
 body: {}
@@ -12,9 +12,9 @@ bodyType: null
 description: ''
 headers: []
 method: GET
-name: logout
-sortPriority: 0.0
-url: ${[ baseURL ]}/api/users/logout
+name: ''
+sortPriority: 1000.001
+url: ${[ serverBaseURL ]}/sentry-error-test
 urlParameters: []
 settingSendCookies:
   enabled: false

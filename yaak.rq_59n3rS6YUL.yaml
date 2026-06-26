@@ -1,10 +1,10 @@
 type: http_request
 model: http_request
-id: rq_4BzXYEPpAA
-createdAt: 2026-06-19T05:26:30.297411365
-updatedAt: 2026-06-22T08:18:43.771273961
+id: rq_59n3rS6YUL
+createdAt: 2026-06-22T08:20:54.962612505
+updatedAt: 2026-06-22T08:20:54.962613901
 workspaceId: wk_HSidN2BR8Y
-folderId: fl_CYukSMJRCx
+folderId: fl_dRJcwqX5WZ
 authentication: {}
 authenticationType: null
 body: {}

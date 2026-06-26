@@ -1,0 +1,42 @@
+type: http_request
+model: http_request
+id: rq_GdVt6AXsHc
+createdAt: 2026-06-22T08:20:54.962855468
+updatedAt: 2026-06-22T08:20:54.962857354
+workspaceId: wk_HSidN2BR8Y
+folderId: fl_dRJcwqX5WZ
+authentication: {}
+authenticationType: none
+body:
+  text: |-
+    {
+      "email": "${[ username ]}",
+      "password": "${[ password ]}"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: PAsWcdXQem
+method: POST
+name: login
+sortPriority: 0.0
+url: ${[ baseURL ]}/api/users/login
+urlParameters: []
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0
