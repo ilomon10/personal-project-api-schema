@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_4BzXYEPpAA
 createdAt: 2026-06-19T05:26:30.297411365
-updatedAt: 2026-06-19T05:26:33.334690091
+updatedAt: 2026-06-21T11:42:37.764968938
 workspaceId: wk_HSidN2BR8Y
 folderId: fl_CYukSMJRCx
 authentication: {}
@@ -13,7 +13,7 @@ description: ''
 headers: []
 method: GET
 name: logout
-sortPriority: 0.0
+sortPriority: 3000.0
 url: ''
 urlParameters: []
 settingSendCookies:

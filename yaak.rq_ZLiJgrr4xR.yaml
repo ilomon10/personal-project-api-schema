@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_ZLiJgrr4xR
 createdAt: 2026-06-19T05:26:22.414485679
-updatedAt: 2026-06-19T05:28:47.837247558
+updatedAt: 2026-06-21T11:42:37.753029648
 workspaceId: wk_HSidN2BR8Y
 folderId: fl_CYukSMJRCx
 authentication: {}
@@ -22,7 +22,7 @@ headers:
   id: PAsWcdXQem
 method: POST
 name: login
-sortPriority: 0.0
+sortPriority: 1000.0
 url: ${[ baseURL ]}/api/users/login
 urlParameters: []
 settingSendCookies:

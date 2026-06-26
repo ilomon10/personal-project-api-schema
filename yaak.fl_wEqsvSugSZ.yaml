@@ -2,12 +2,11 @@ type: folder
 model: folder
 id: fl_wEqsvSugSZ
 createdAt: 2026-06-19T00:27:42.095808192
-updatedAt: 2026-06-19T05:17:05.145152753
+updatedAt: 2026-06-21T11:37:55.731704992
 workspaceId: wk_HSidN2BR8Y
 folderId: null
-authentication:
-  prefix: Bearer
-authenticationType: bearer
+authentication: {}
+authenticationType: none
 description: ''
 headers: []
 name: Undangon

@@ -2,11 +2,11 @@ type: folder
 model: folder
 id: fl_zzY9EjKZja
 createdAt: 2026-06-19T05:17:02.276152132
-updatedAt: 2026-06-19T05:17:09.319074012
+updatedAt: 2026-06-21T11:42:01.703764104
 workspaceId: wk_HSidN2BR8Y
 folderId: fl_wEqsvSugSZ
 authentication: {}
-authenticationType: null
+authenticationType: none
 description: ''
 headers: []
 name: API
