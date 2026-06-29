@@ -3,8 +3,8 @@ model: environment
 id: ev_GjcEQqpLxY
 workspaceId: wk_HSidN2BR8Y
 createdAt: 2026-06-19T00:25:46.278513089
-updatedAt: 2026-06-19T00:26:47.984242241
-name: Local Development
+updatedAt: 2026-06-21T11:33:57.601333413
+name: Sync - Local Development
 public: true
 base: false
 parentModel: environment
