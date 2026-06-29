@@ -1,0 +1,30 @@
+type: folder
+model: folder
+id: fl_t4dnPap7zL
+createdAt: 2026-06-25T03:00:17.788149763
+updatedAt: 2026-06-25T06:37:42.982901732
+workspaceId: wk_HSidN2BR8Y
+folderId: fl_qNQj4u2Yem
+authentication:
+  key: x-api-key
+  value: ${[ smartSystemCustomReportApiKey ]}
+authenticationType: apikey
+description: ''
+headers: []
+name: CustomReport
+sortPriority: -1782356417787.0
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

@@ -1,0 +1,55 @@
+type: http_request
+model: http_request
+id: rq_rvq7xaBcBX
+createdAt: 2026-06-25T02:50:39.784157165
+updatedAt: 2026-06-25T06:11:38.456990250
+workspaceId: wk_HSidN2BR8Y
+folderId: fl_qNQj4u2Yem
+authentication:
+  key: headerKey
+  value: ${[ smartSystemApiKey ]}
+authenticationType: apikey
+body:
+  text: |-
+    [
+      {
+        "attdEvent": "2026-06-25T03:11:00.268Z",
+        "attdPin": "2405270",
+        "attdFullname": "IMANUEL EFRAT PUJIKO PUNDOKO",
+        "attdCreated": "2026-06-25T06:06:00.415Z",
+        "attdUpdated": "2026-06-25T06:06:00.415Z",
+        "attdDeviceid": "SHC-SA-E-8245389803243084298",
+        "attdDevicesn": "SHCSAE8245389803243084298",
+        "attdTimezone": "+0800",
+        "attdProject": "MNDO",
+        "attdSublocation": "SelfAttendanceForSmartHC",
+        "attdEmpNumber": "SMA2405270"
+      }
+    ]
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 6CSp0DPQjY
+method: POST
+name: Submit attendance
+sortPriority: 1000.002
+url: https://system.samuderamuliaabadi.com:8079/api/HRAttendanceSites
+urlParameters: []
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0
