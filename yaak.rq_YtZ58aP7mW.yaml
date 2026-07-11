@@ -1,0 +1,43 @@
+type: http_request
+model: http_request
+id: rq_YtZ58aP7mW
+createdAt: 2026-06-30T02:49:56.448177842
+updatedAt: 2026-06-30T03:39:00.528779911
+workspaceId: wk_HSidN2BR8Y
+folderId: fl_gfMkcLdiTm
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "model_name": "Facenet",
+      "detector_backend": "retinaface",
+      "img": "${[ faceImageBase64 ]}"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: qF4qdZ6hC3
+method: POST
+name: ''
+sortPriority: 1000.001
+url: http://10.10.100.150:4102/represent
+urlParameters: []
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

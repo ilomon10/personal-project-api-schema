@@ -1,0 +1,45 @@
+type: http_request
+model: http_request
+id: rq_2LLZnPKbfp
+createdAt: 2026-07-08T07:36:14.415116487
+updatedAt: 2026-07-09T06:52:46.109983495
+workspaceId: wk_HSidN2BR8Y
+folderId: fl_irdFGekYrK
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: get font preview
+sortPriority: 0.001
+url: ${[ baseURLFontSource ]}/api/font/:font_family/preview
+urlParameters:
+- enabled: true
+  name: :font_family
+  value: Fira Sans
+  id: QZcSAVwQcb
+- enabled: false
+  name: ''
+  value: ''
+  id: jsIkZZc33P
+- enabled: true
+  name: ''
+  value: ''
+  id: 08PVj5GV3q
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

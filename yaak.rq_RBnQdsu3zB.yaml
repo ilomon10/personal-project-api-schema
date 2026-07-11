@@ -1,0 +1,49 @@
+type: http_request
+model: http_request
+id: rq_RBnQdsu3zB
+createdAt: 2026-07-01T23:44:39.838207178
+updatedAt: 2026-07-02T00:20:30.909295612
+workspaceId: wk_HSidN2BR8Y
+folderId: fl_mqjnfurdLC
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: Daily on Schedule
+sortPriority: 0.0
+url: ${[ baseURL ]}/api/dashboard-today-schedule
+urlParameters:
+- enabled: true
+  name: from
+  value: 2026-07-01T23%3A40%3A38.477Z
+  id: ZRkWSCWq8m
+- enabled: true
+  name: department[]
+  value: MAINTENANCE
+  id: 9HEMpk2Q5k
+- enabled: false
+  name: department[]
+  value: SCM
+  id: nCq0sNQ6CN
+- enabled: true
+  name: ''
+  value: ''
+  id: xuurK2nqSF
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

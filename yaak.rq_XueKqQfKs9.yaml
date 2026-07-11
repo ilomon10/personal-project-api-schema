@@ -2,13 +2,13 @@ type: http_request
 model: http_request
 id: rq_XueKqQfKs9
 createdAt: 2026-06-23T06:17:06.802667094
-updatedAt: 2026-06-26T00:54:12.478147257
+updatedAt: 2026-06-29T02:03:48.868225814
 workspaceId: wk_HSidN2BR8Y
 folderId: fl_DM4Cnc5y7K
 authentication: {}
 authenticationType: none
 body:
-  text: "{\n\t\"imageBase64\": \"${[ faceImageBase64 ]}\",\n\t\"location\": [\n\t\t124.85599007753132,\n\t\t1.4692179207282008\n\t],\n\t\"timestamp\": \"2026-06-26T00:53:31.752Z\"\n}"
+  text: "{\n\t\"imageBase64\": \"${[ faceImageBase64 ]}\",\n\t\"location\": [\n\t\t124.85599007753132,\n\t\t1.4692179207282008\n\t],\n\t\"timestamp\": \"2026-06-30T01:34:45.693Z\",\n    \"timezone\": \"+0800\"\n}"
 bodyType: application/json
 description: ''
 headers:

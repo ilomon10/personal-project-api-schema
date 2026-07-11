@@ -1,0 +1,28 @@
+type: folder
+model: folder
+id: fl_xtH3NmPX98
+createdAt: 2026-07-02T00:20:22.444500677
+updatedAt: 2026-07-02T00:20:22.444503052
+workspaceId: wk_HSidN2BR8Y
+folderId: fl_UxirsxPuQB
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+name: Custom Endpoint
+sortPriority: -1782951622443.0
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0

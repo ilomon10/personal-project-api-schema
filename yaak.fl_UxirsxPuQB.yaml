@@ -1,0 +1,28 @@
+type: folder
+model: folder
+id: fl_UxirsxPuQB
+createdAt: 2026-07-01T23:44:36.366225188
+updatedAt: 2026-07-01T23:44:36.366228471
+workspaceId: wk_HSidN2BR8Y
+folderId: null
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+name: FAG
+sortPriority: -1782949476360.0
+settingSendCookies:
+  enabled: false
+  value: true
+settingStoreCookies:
+  enabled: false
+  value: true
+settingValidateCertificates:
+  enabled: false
+  value: true
+settingFollowRedirects:
+  enabled: false
+  value: true
+settingRequestTimeout:
+  enabled: false
+  value: 0
